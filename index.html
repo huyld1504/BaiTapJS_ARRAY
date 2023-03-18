@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Array</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+    <h3 class="text-center text-uppercase mt-5">Bài tập về mảng</h3>
+    <div class="container mt-5" style="margin-bottom:50px;">
+        <div class="form-group">
+                <input type="number" id="nhapGTMang" class="form-control w-50 mx-auto" placeholder="Nhập giá trị mảng">
+                <button id="btn_themGT" class="btn btn-success mt-2 mx-auto d-block">Thêm</button>
+                <div class="alert alert-danger mt-2 ps-5 fs-5 text-black pt-2 w-75 mx-auto" id="arrayNumber"></div>
+        </div>
+        <div class="form-group">
+            <button id="btn_TinhTongCacSoDuong" class="btn btn-success d-block mx-auto">1. Tính tổng</button>
+            <div class="alert alert-danger mt-2 ps-5 fs-5 text-black pt-2 w-75 mx-auto" id="tinhTongSoDuong"></div>
+        </div>
+        <div class="form-group">
+            <button id="btn_demCacSoDuong" class="btn btn-success d-block mx-auto">2. Đếm số dương</button>
+            <div class="alert alert-danger mt-2 ps-5 fs-5 text-black pt-2 w-75 mx-auto" id="demSoDuong"></div>
+        </div>
+        <div class="form-group">
+            <button id="btn_minArray" class="btn btn-success d-block mx-auto">3. Tìm GTNN</button>
+            <div class="alert alert-danger mt-2 ps-5 fs-5 text-black pt-2 w-75 mx-auto" id="minArray"></div>
+        </div>
+        <div class="form-group">
+            <button id="btn_minArrayPositiveNum" class="btn btn-success d-block mx-auto">4. Tìm số dương nhỏ nhất</button>
+            <div class="alert alert-danger mt-2 ps-5 fs-5 text-black pt-2 w-75 mx-auto" id="minArrayPositiveNum"></div>
+        </div>
+        <div class="form-group">
+            <button id="btn_soChanCuoiCung" class="btn btn-success d-block mx-auto">5. Tìm số chẵn cuối cùng</button>
+            <div class="alert alert-danger mt-2 ps-5 fs-5 text-black pt-2 w-75 mx-auto" id="soChanCuoiCung"></div>
+        </div>
+        <div class="form-group">
+            <p class="mt-2 fs-5 bg-danger w-50 rounded-1 text-center text-light mx-auto">Nhập giá trị cần đổi</p>
+            <input type="number" class="form-control w-25 d-block mx-auto my-2" placeholder="Value 1" id="giatriChange_1">
+            <input type="number" class="form-control w-25 d-block mx-auto my-2" placeholder="Value 2" id="giatriChange_2">
+            <button id="btn_doiGiaTri" class="btn btn-success d-block mx-auto">6. Đối giá trị</button>
+            <div class="alert alert-danger mt-2 ps-5 fs-5 text-black pt-2 w-75 mx-auto" id="doiGiaTri"></div>
+        </div>
+        <div class="form-group">
+            <button id="btn_tangDan" class="btn btn-success d-block mx-auto">7. Sắp xếp</button>
+            <div class="alert alert-danger mt-2 ps-5 fs-5 text-black pt-2 w-75 mx-auto" id="tangDan"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="/JS/main.js"></script>
+</body>
+
+</html>
